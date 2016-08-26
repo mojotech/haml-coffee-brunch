@@ -1,0 +1,37 @@
+{
+  "name": "haml-coffee-brunch",
+  "version": "0.3.1",
+  "description": "Brunch.io plugin for haml coffee files",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js && mocha"
+  },
+  "main": "./index",
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojotech/haml-coffee-brunch.git"
+  },
+  "keywords": [
+    "brunch",
+    "brunch-plugin",
+    "brunch-compiler",
+    "haml",
+    "coffee",
+    "coffeescript",
+    "haml-coffee"
+  ],
+  "author": "Craig P Jolicoeur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojotech/haml-coffee-brunch/issues"
+  },
+  "homepage": "https://github.com/mojotech/haml-coffee-brunch#readme",
+  "dependencies": {
+    "haml-coffee": "^1.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "mocha": "^3.0.2"
+  }
+}
