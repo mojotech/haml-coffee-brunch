@@ -1,6 +1,6 @@
 {
   "name": "haml-coffee-brunch",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Brunch.io plugin for haml coffee files",
   "main": "index.js",
   "scripts": {

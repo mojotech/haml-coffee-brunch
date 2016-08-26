@@ -36,21 +36,7 @@ class HamlCoffeeCompiler {
   }
 
   compileStatic(params) {
-    if (!params) params = {};
-
-    this.options.filename = params.path;
-    this.options.name = sysPath.basename(params.path);
-
-    return new Promise((resolve, reject) => {
-      let template;
-
-      try {
-        template = hamlc.template(params.data, this.options.name, 'window.JST');
-        resolve(template);
-      } catch (error) {
-        reject(error);
-      }
-    });
+    compile(params);
   }
 }
 
